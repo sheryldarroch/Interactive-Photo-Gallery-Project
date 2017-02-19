@@ -1,0 +1,57 @@
+/***** General Styles *****/
+
+body {
+  font-family: 'Arimo', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+form {
+  width: 310px;
+  margin: 40px auto;
+}
+
+.search {
+  padding: 8px 15px;
+  background: rgba(209, 224, 224, 0.5);
+  border: none; 
+  border-radius: 3px;
+}
+
+.search:hover {
+  background: #eee;
+}
+
+#links img {
+  margin: 10px;
+  padding: 0;
+}
+
+/***** Lightbox Styles *****/
+
+/*Centering caption*/
+.lb-data .lb-details {
+  width: 100%;
+}
+
+span.lb-caption {
+  display: block;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 0;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+
+  #links {
+    max-width: 75%;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center; 
+  }
+
+}
