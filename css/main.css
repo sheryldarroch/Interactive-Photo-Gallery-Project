@@ -11,17 +11,26 @@ a {
 form {
   width: 310px;
   margin: 40px auto;
+  text-align: center;
 }
 
 .search {
+  display: inline-block;
   padding: 8px 15px;
   background: rgba(209, 224, 224, 0.5);
   border: none; 
   border-radius: 3px;
+  margin: 0 auto;
 }
 
 .search:hover {
   background: #eee;
+}
+
+#links {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
 }
 
 #links img {
@@ -49,9 +58,5 @@ span.lb-caption {
 
   #links {
     max-width: 75%;
-    margin: 0 auto;
-    padding: 0;
-    text-align: center; 
   }
-
 }
